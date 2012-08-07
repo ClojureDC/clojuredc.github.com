@@ -1,0 +1,91 @@
+/*
+blue: #526FAC
+green: #6C9447
+ */
+
+a         { color: #526FAC; }
+a:visited { color: #526FAC; }
+a:hover   { color: #6C9447; }
+
+img#logo {
+  border-radius: 6px;
+  width:  160px;
+  height: 160px;
+}
+
+header {
+  margin-top: 50px;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, "Sans Serif";
+  font-weight: normal;
+  line-height: 134px;
+  font-size: 154px;
+  position: absolute;
+  right: 10px;
+}
+
+header h1 #title-dc {
+  color: #6C9447;
+}
+
+header > div {
+  position: relative;
+}
+
+header > div > p {
+  font-size: 18px;
+  position: absolute;
+  bottom: -10px;
+  right: 16px;
+}
+
+#main {
+  margin-top: 80px;
+}
+
+#main #content {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+#main #content p {
+  margin-bottom: 1.2em;
+}
+
+#map-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+#main .reston > p {
+  font-size: 14px;
+  line-height: 1.3em;
+  padding-left: 12px;
+}
+
+#main .reston > p:last-of-type {
+  margin-bottom: 22px;
+}
+
+#main #sidebar .well p {
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+#main #sidebar .well h3 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+#main #sidebar .well h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+#main #sidebar .well h4 a {
+  text-decoration: underline;
+}
+
