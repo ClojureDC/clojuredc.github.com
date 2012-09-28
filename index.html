@@ -1,82 +1,107 @@
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-  <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-    <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-      <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-        <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-          <title>ClojureDC - Downtown DC Clojure</title>
-          <meta name="description" content="Homepage for ClojureDC, a newbie-friendly metro DC area user group for the Clojure functional programming language on the JVM, that meets every third Tuesday of the month.">
-          <meta name="keywords" content="Clojure, Washington DC, User Group, JVM" />
+  <title>ClojureDC - Downtown DC Clojure</title>
+  <meta name="description" content="Homepage for ClojureDC, a newbie-friendly metro DC area user group for the Clojure functional programming language on the JVM, that meets every third Tuesday of the month.">
+  <meta name="keywords" content="Clojure, Washington DC, User Group, JVM" />
 
-          <link rel="stylesheet" href="css/libs/bootstrap.css">
-          <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="css/libs/bootstrap.css">
+  <link rel="stylesheet" href="css/screen.css">
 
-          <script src="js/libs/modernizr-2.5.3.min.js"></script>
-        </head>
-        <body>
-          <div class="container">
-            <header class="row">
-              <div class="span12">
-                <img class="pull-left" alt="ClojureDC Logo" id="logo" title="ClojureDC" src="img/logo.png"/>
-                <h1 class="pull-left">Clo<em>j</em>ure<span id="title-dc">DC</span></h1>
-                <p>A friendly user group for the downtown DC area.</p>
-              </div>
-            </header>
-            <div role="main" class="row" id="main">
-              <div class="span6" id="content">
-                <p>Join us to talk about, learn about, and hack around with an awesome functional programming language on the JVM, <a href="http://clojure.org/">Clojure</a>. Our goal is to have openness, accessibility, and fun for all levels of experience.</p>
-                <p>We meet every third Tuesday of the month. <a href="http://www.meetup.com/ClojureDC/">RSVP to attend</a> on Meetup, <a href="http://groups.google.com/group/clojuredc?hl=en">chat in our Google Group</a>, or <a href="https://twitter.com/ClojureDC">follow us on Twitter</a>.</p>
-                <p>The only prerequisites are an interest in building your skills in and furthering your understanding of Clojure, and willingness to encourage and enable your peers to do the same.</p>
-                <p>Thanks to <a href="http://livingsocial.com/">LivingSocial</a> for providing meeting space and support.</p>
-              </div>
-              <div class="span5 offset1" id="sidebar">
-                <div class="row well">
-                  <h3>Next Up:</h3>
-                  <h4>Tues, August 21: <a href="http://www.meetup.com/ClojureDC/events/76541552/">Writing a Simple Clojure Library and Open Hack Night</a></h4>
-                  <p>Come to our very first meeting!</p>
-                  <p>We'll start with a time&ndash;boxed presentation walking through a partial implementation of a simple parser for <a href="http://tnetstrings.org/">TNetstrings</a>, including the basics of getting started with Clojure.</p>
-                  <p>Afterward we'll have a group discussion and open hack session. We'll demo and offer help with the Clojure Koans and 4Clojure so that no one is left out.</p>
-                </div>
-                <div class="row reston">
-                  <p>Nearer to the Reston area? Check out <a href="http://www.meetup.com/Cap-Clug">Cap-Clug</a>, which meets the second Wednesday of every month.</p>
-                  <p>Hack with them, then come hang with us the next week!</p>
-                </div>
-                <div class="row well">
-                  <h3>Location:</h3>
-                  <p>We meet at the <a href="http://livingsocial.com/">LivingSocial offices</a> at:</p>
-                  <p><a href="https://maps.google.com/maps?q=1445+New+York+Avenue+Northwest,+Washington,+DC&hl=en&sll=37.6,-95.665&sspn=39.35567,83.056641&oq=1445+New+Yo&hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&t=m&z=16">1445 New York Ave. NW<br />Washington, DC 20005</a>.</p>
-                  <p>RSVP via the <a href="http://www.meetup.com/ClojureDC/">Meetup group</a> to ensure your spot and for more details.</p>
-                  <div id="map-wrapper">
-                    <iframe width="320" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1445+New+York+Avenue+Northwest,+Washington,+DC&amp;aq=0&amp;oq=1445+New+Yo&amp;sll=37.6,-95.665&amp;sspn=39.35567,83.056641&amp;ie=UTF8&amp;hq=&amp;hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&amp;t=m&amp;ll=38.905795,-77.033043&amp;spn=0.021373,0.027552&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1445+New+York+Avenue+Northwest,+Washington,+DC&amp;aq=0&amp;oq=1445+New+Yo&amp;sll=37.6,-95.665&amp;sspn=39.35567,83.056641&amp;ie=UTF8&amp;hq=&amp;hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&amp;t=m&amp;ll=38.905795,-77.033043&amp;spn=0.021373,0.027552&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <footer>
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div class="span12">
+        <img class="pull-left" alt="ClojureDC Logo" id="logo" title="ClojureDC" src="img/logo.png"/>
+        <h1 class="pull-left">Clo<em>j</em>ure<span id="title-dc">DC</span></h1>
+        <p>A friendly user group for the downtown DC area.</p>
+      </div>
+    </header>
+    <div role="main" class="row" id="main">
+      <div class="span6" id="content">
+        <p>Join us to talk about, learn about, and hack around with an awesome functional programming language on the JVM, <a href="http://clojure.org/">Clojure</a>. Our goal is to have openness, accessibility, and fun for all levels of experience.</p>
+        <p>We meet every third Tuesday of the month. <a href="http://www.meetup.com/ClojureDC/">RSVP to attend</a> on Meetup, <a href="http://groups.google.com/group/clojuredc?hl=en">chat in our Google Group</a>, or <a href="https://twitter.com/ClojureDC">follow us on Twitter</a>.</p>
+        <p>The only prerequisites are an interest in building your skills in and furthering your understanding of Clojure, and willingness to encourage and enable your peers to do the same.</p>
+        <p>Thanks to <a href="http://livingsocial.com/">LivingSocial</a> for providing meeting space and support.</p>
+      </div>
+      <div class="span5 offset1" id="sidebar">
+        <div class="row well">
+          <h3>Next Up:</h3>
+          <h4>Tues, October 16: <a href="http://www.meetup.com/ClojureDC/events/84459452/">Lightning Talks!</a></h4>
+          <p>Come speak and listen at our next meeting!</p>
+          <hr>
+          Submit a proposal (Find Matt Yoho or Chris Maddox on our <a href="http://groups.google.com/group/clojuredc?hl=en">Google Group</a>):
+          <ul>
+            <li><b>Name of the talk</b></li>
+            <li><b>Description</b> - 2 sentences to clarify what you're talking about</li>
+            <li><b>Time</b> How long would you like the stage? This is the most important part because:</li>
+            <li style="list-style: none;">
+              <ul>
+                <li>Talks will be sorted by time in descending order (shortest first).</li>
+                <li>You will be cut off when your time is up.</li>
+              </ul>
+            </li>
+          </ul>
+          You can email us at any point before the meetup on October 16 @ 6pm with a talk idea.
 
-            </footer>
+          <hr>
+          <h5>TIPS</h5>
+          <ol>
+            <li>Don't be afraid, everyone is nervous about public speaking but we are nice people :)</li>
+            <li>Practice beforehand. Has a shocking success rate (and I always forget this to my own detriment).</li>
+            <li>Don't live code. Seriously, it can only not go poorly and there are too many easy screencast tools out there (or just keynote animations) for it not to be prerecorded.</li>
+            <li>Pictures can say a lot more, with less explanation, then a block of text (or code)</li>
+          </ol>
+
+          If you have any tips for aspiring speakers, send them to our <a href="http://groups.google.com/group/clojuredc?hl=en">Google Group</a>!
+
+          Chris & Matt
+        </div>
+        <div class="row reston">
+          <p>Nearer to the Reston area? Check out <a href="http://www.meetup.com/Cap-Clug">Cap-Clug</a>, which meets the second Wednesday of every month.</p>
+          <p>Hack with them, then come hang with us the next week!</p>
+        </div>
+        <div class="row well">
+          <h3>Location:</h3>
+          <p>We meet at the <a href="http://livingsocial.com/">LivingSocial offices</a> at:</p>
+          <p><a href="https://maps.google.com/maps?q=1445+New+York+Avenue+Northwest,+Washington,+DC&hl=en&sll=37.6,-95.665&sspn=39.35567,83.056641&oq=1445+New+Yo&hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&t=m&z=16">1445 New York Ave. NW<br />Washington, DC 20005</a>.</p>
+          <p>RSVP via the <a href="http://www.meetup.com/ClojureDC/">Meetup group</a> to ensure your spot and for more details.</p>
+          <div id="map-wrapper">
+            <iframe width="320" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1445+New+York+Avenue+Northwest,+Washington,+DC&amp;aq=0&amp;oq=1445+New+Yo&amp;sll=37.6,-95.665&amp;sspn=39.35567,83.056641&amp;ie=UTF8&amp;hq=&amp;hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&amp;t=m&amp;ll=38.905795,-77.033043&amp;spn=0.021373,0.027552&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1445+New+York+Avenue+Northwest,+Washington,+DC&amp;aq=0&amp;oq=1445+New+Yo&amp;sll=37.6,-95.665&amp;sspn=39.35567,83.056641&amp;ie=UTF8&amp;hq=&amp;hnear=1445+New+York+Ave+NW,+Washington,+District+of+Columbia+20005&amp;t=m&amp;ll=38.905795,-77.033043&amp;spn=0.021373,0.027552&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
           </div>
+        </div>
+      </div>
+    </div>
+    <footer>
 
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-          <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+    </footer>
+  </div>
 
-            <script src="js/script.js"></script>
-            <script type="text/javascript">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
-              var _gaq = _gaq || [];
-              _gaq.push(['_setAccount', 'UA-33926514-1']);
-              _gaq.push(['_setDomainName', 'clojuredc.org']);
-              _gaq.push(['_trackPageview']);
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
 
-              (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-              })();
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33926514-1']);
+  _gaq.push(['_setDomainName', 'clojuredc.org']);
+  _gaq.push(['_trackPageview']);
 
-            </script>
-          </body>
-        </html>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+</body>
+</html>
